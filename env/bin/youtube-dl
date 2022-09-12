@@ -1,4 +1,6 @@
-#!/Users/raunakmondal/Downloads/faceboookdownloader-main/env/bin/python3
+#!/bin/sh
+'''exec' "/Users/raunakmondal/Documents/CODING/PROJECT/untitled folder/faceboookdownloader-main/env/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
