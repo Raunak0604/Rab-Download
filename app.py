@@ -12,9 +12,9 @@ def home():
 def about():
 	return render_template('about.html')
 
-@app.route('/terms-conditions')
+@app.route('/contact-us')
 def terms():
-	return render_template('terms-conditions.html')
+	return render_template('contact-us.html')
 
 @app.route('/download', methods=["POST", "GET"])
 def download():
